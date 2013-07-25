@@ -2,7 +2,7 @@
 URLconf for testing.
 """
 
-from django.conf.urls.defaults import *
+from django.conf.urls import *
 
 urlpatterns = patterns('localeurl.tests.test_urls',
      url(r'^dummy/$', 'dummy', name='dummy0'),

@@ -1,4 +1,4 @@
-from django.conf.urls.defaults import *
+from django.conf.urls import *
 from localeurl.views import change_locale
 
 urlpatterns = patterns('',
